@@ -1,0 +1,88 @@
+此gson包下需要定义GSON实体类
+
+gson 下的是GSON实体类
+
+
+
+
+{
+    "HeWeather": [
+         {
+            "status": "ok",
+            "basic": {},
+            "aqi": {},
+            "now": {},
+            "suggestion": {},
+            "daily_forecast": []
+        }
+     ]
+}
+
+
+"basic":{
+        "city":"苏州",
+        "id":"CN101190401",
+        "update":{
+            "loc":"2016-08-08 21:58"
+        }
+ }
+
+
+"aqi":{
+        "city":{
+        "aqi":"44",
+        "pm25":"13"
+        }
+}
+
+
+ "now":{
+    "tmp":"29",
+    "cond":{
+    "txt":"阵雨"
+    }
+ }
+
+"suggestion":{
+       "comf":{
+                "txt":"白天天气。。。。"
+        },
+       "cw" :{
+                "txt":"  deeea"
+        },
+        "sport":{
+                "txt":"  djaijd"
+
+        }
+
+}
+
+  "daily_forecast":[
+    {
+        "date":"2016-08-08",
+         "cond":{
+           "txt_d":"阵雨"
+            },
+          "tmp":{
+              "max":"34",
+              "min":"27"
+              }
+    },
+
+    {   "date":"2016-0808"
+        "cond":{
+            "txt_d":"多云"
+        }
+          "tmp":{
+            "max":"35"
+            "min":"29"
+          }
+    },
+
+    ....
+
+
+ }
+
+
+
